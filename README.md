@@ -2,7 +2,8 @@
 Test config for nodejs connected to a weighbridge over serial communication.
 The testing hardware is a simple arduino connected to the PC simulating the weighbridge. 
 
-<img src="https://github.com/jsheperd/node-weighbridge/blob/master/imgs/emulator_hw.jpg?raw=true"/>
+
+<img src="https://github.com/jsheperd/node-weighbridge/blob/master/imgs/emulator_hw.jpg?raw=true" alt="The emulator hardware"/>
 
 The communication is defined by the producer of the weighbridge. The bridges can connect directly to a PC over RS232 or multiple bridges can be linked onto the same RS485 serial BUS. Each bridge has got a unique name as a char. The messages can be questions or commands.
 Each message has got '\r\n' closing.
