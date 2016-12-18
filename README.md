@@ -4,7 +4,8 @@ The testing hardware is a simple arduino connected to the PC simulating the weig
 Each message has got '\r\n' closing.
 ##Sample message  "AX:B?\r\n"
 ###'AX'=source(A)-dest(B)
-###':message\r\n'
+###':B?\r\n'
+B? is the message
 
 ##Question messages
 1. Net: 'N?\r\n'
