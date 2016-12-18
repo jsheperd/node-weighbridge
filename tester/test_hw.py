@@ -12,7 +12,7 @@ def comm(msg):
 
 print(ser.name)         # check which port was really used
 
-msgs = ['N?', 'B?', 'T?', 'NU', 'TA', 'BR', 'NT', 'TR', 'kamu']
+msgs = ['kamu', 'N?', 'B?', 'T?', 'NU', 'TA', 'BR', 'NT', 'TR']
 
 
 # test he device

@@ -13,6 +13,7 @@ function serialMsg (cmd) {
 }
 
 port.on('open', function() {
+  setTimeout(function() { serialMsg('Kamu')},  500);
   setTimeout(function() { serialMsg('T?')}, 1000);
   setTimeout(function() { serialMsg('N?')}, 2000);
   setTimeout(function() { serialMsg('B?')}, 3000);
