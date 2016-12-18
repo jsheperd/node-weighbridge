@@ -30,6 +30,7 @@ void loop () {
       memset(buffer, 0, bSize);
     }
   }
-  delay(10);
+  delay(1000);
+  Serial.println("XA:NACK");
 }
 
