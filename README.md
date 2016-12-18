@@ -21,8 +21,8 @@ B? is the message
 
 #Communicate with the 'Bridge'
 ##There are two test for check how PC can discuss with the bridge
-1. tester/test_hw.py -> simlest Python appliction
-2. tester/test_hw.js -> simlest nodejs appliction
+1. tester/test_hw.py -> simplest Python appliction
+2. tester/test_hw.js -> simplest nodejs appliction
 
 # Resources
 1. http://thinkingonthinking.com/serial-communication-with-nodejs
