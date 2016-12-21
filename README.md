@@ -25,7 +25,7 @@ B? is the message
 
 
 #Communicate with the 'Bridge'
-##There are two test for check how PC can discuss with the bridge
+##There are two tests for check how PC can discuss with the bridge
 1. tester/test_hw.py -> simplest Python appliction
 2. tester/test_hw.js -> simplest nodejs appliction
 
