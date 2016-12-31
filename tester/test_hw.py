@@ -6,13 +6,13 @@ ser = serial.Serial('/dev/ttyUSB0')  # open serial port
 
 def comm(msg):
     print("msg: %s" % msg)
-    ser.write("AX:%s\r\n" % msg )
+    ser.write("XA/%s\r\n" % msg )
     resp = ser.readline()
     print resp
 
 print(ser.name)         # check which port was really used
 
-msgs = ['kamu', 'N?', 'B?', 'T?', 'NU', 'TA', 'BR', 'NT', 'TR']
+msgs = ['kamu', 'N?', 'B?', 'T?']
 
 
 # test he device
